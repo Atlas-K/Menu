@@ -12,7 +12,7 @@ header {
 
 header .banner-container {
     height: 60px;
-    overflow: hidden; /*hides the overflowing parts*/
+    overflow: hidden;
 }
 
 header img {
@@ -52,9 +52,9 @@ h1, h2 {
 
 section {
     width: 48%;
-    display: inline-block; /*lets the sections be next to each other*/
+    display: inline-block;
     margin: 0 4px;
-    vertical-align: top; /*they are aligned at the top of the page*/
+    vertical-align: top;
 }
 
 section.info .opening-time {
@@ -73,7 +73,7 @@ section.info .opening-time {
 }
 
 ul {
-    list-style-type: none; /*gets rid of the dots*/
+    list-style-type: none;
     padding: 0;
     margin: 0;
 }
@@ -124,14 +124,3 @@ footer{
     height: 60px;
     border-radius: 0 30px 30px 0;
 }
-
-/* position: static = moves the position back to point zero.
-position: relative; / left: 50px; = moves the element relative to itself. (can be used to move images for games)
-position: absolute; = places documents on top of one another. one element is behind the other
-position: fixed; = the element is stuck and is there when you scroll down
-position: sticky =  like fixed, but it moves until it's on top of the page, then sticks.
-*/
-
-/* float: left, right = the element pops to the left or right of its container. */
-
-/* z-index: 1/2/...= puts elements on top of each other. (can be used with position: absolute) {depth}*/
